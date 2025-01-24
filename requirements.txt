@@ -17,7 +17,6 @@ debugpy==1.8.8
 decorator==5.1.1
 diff_cover==9.2.1
 et_xmlfile==2.0.0
-etl_example @ file:///C:/Sen%20Huang/DF/capstone-project/weather_capstone/sen-s_capstone_project
 executing==2.1.0
 flake8==7.1.1
 fonttools==4.55.1
