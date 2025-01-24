@@ -9,8 +9,8 @@ def get_veg_data():
     
     # traverse up to the project root folder
     print(os.path.dirname(__file__))
-    root_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
-    root_folder = os.path.join(root_folder,"data")
+    root_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../../'))
+    root_folder = os.path.join(root_folder,"etl/data")
     
     file_names = [f for f in os.listdir(root_folder) if os.path.isfile(os.path.join(root_folder, f))]
     data_dict = {}

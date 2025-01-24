@@ -3,11 +3,11 @@ import psycopg2
 import pandas as pd
 import os
 from dotenv import load_dotenv
-from current import insert_current
+from etl.extract.current import insert_current
 import datetime
 import plotly.express as px
 import plotly.graph_objects as go
-from vegtables import get_veg_data, VEG_COLOUR
+from etl.extract.vegtables import get_veg_data, VEG_COLOUR
 import base64
 st.set_page_config(layout="wide")
 
@@ -159,8 +159,8 @@ def get_location():
 def main():
     
    
-    #set_background("../../docs/background.png")
-    #add_top_right_image("../../docs/sun.png")
+    set_background("../../docs/background.png")
+    add_top_right_image("../../docs/sun.png")
 
     st.sidebar.title("Weather Data Analysis")
     city = get_location()
