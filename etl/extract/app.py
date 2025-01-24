@@ -159,8 +159,8 @@ def get_location():
 def main():
     
    
-    set_background("../../docs/background.png")
-    add_top_right_image("../../docs/sun.png")
+    #set_background("../../docs/background.png")
+    #add_top_right_image("../../docs/sun.png")
 
     st.sidebar.title("Weather Data Analysis")
     city = get_location()
