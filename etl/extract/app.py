@@ -3,11 +3,11 @@ import psycopg2
 import pandas as pd
 import os
 from dotenv import load_dotenv
-from etl.extract.current import insert_current
+from current import insert_current
 import datetime
 import plotly.express as px
 import plotly.graph_objects as go
-from etl.extract.vegtables import get_veg_data, VEG_COLOUR
+from vegtables import get_veg_data, VEG_COLOUR
 import base64
 st.set_page_config(layout="wide")
 

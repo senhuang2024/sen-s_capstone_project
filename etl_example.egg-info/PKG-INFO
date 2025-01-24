@@ -28,7 +28,6 @@ Requires-Dist: debugpy==1.8.8
 Requires-Dist: decorator==5.1.1
 Requires-Dist: diff_cover==9.2.1
 Requires-Dist: et_xmlfile==2.0.0
-Requires-Dist: etl_example@ file:///C:/Sen%20Huang/DF/capstone-project/weather_capstone/sen-s_capstone_project
 Requires-Dist: executing==2.1.0
 Requires-Dist: flake8==7.1.1
 Requires-Dist: fonttools==4.55.1
@@ -90,7 +89,6 @@ Requires-Dist: pytest-postgresql==6.1.1
 Requires-Dist: python-dateutil==2.9.0.post0
 Requires-Dist: python-dotenv==1.0.1
 Requires-Dist: pytz==2024.2
-Requires-Dist: pywin32==308
 Requires-Dist: PyYAML==6.0.2
 Requires-Dist: pyzmq==26.2.0
 Requires-Dist: referencing==0.35.1
