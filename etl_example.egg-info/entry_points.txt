@@ -1,0 +1,2 @@
+[console_scripts]
+run_tests = tests.run_tests:main

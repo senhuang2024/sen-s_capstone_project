@@ -1,0 +1,13 @@
+﻿month,mintemp_c,maxtemp_c,precipitation,growth_phase
+January,7,10,50,Dormancy
+February,7,10,45,Dormancy
+March,7,10,45,Early Growth
+April,8,12,45,Growth
+May,10,15,50,Flowering
+June,13,20,60,Fruit Set
+July,15,22,65,Fruit Development
+August,14,21,70,Fruit Ripening
+September,12,18,70,Harvest
+October,9,14,85,Late Harvest/Beginning of Dormancy
+November,7,10,50,Dormancy
+December,7,10,50,Dormancy

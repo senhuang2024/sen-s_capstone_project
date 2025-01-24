@@ -1,0 +1,13 @@
+﻿month,mintemp_c,maxtemp_c,precipitation,growth_phase
+January,1,5,30,Dormancy
+February,1,6,30,Early Planting
+March,3,9,35,Planting
+April,6,12,40,Growth
+May,8,15,40,Growth
+June,10,18,40,Growth
+July,12,20,45,Harvesting
+August,13,20,45,Harvesting
+September,10,17,40,Harvesting
+October,7,13,35,Fall Harvesting
+November,4,9,35,Winter Preparation
+December,1,5,30,Dormancy
