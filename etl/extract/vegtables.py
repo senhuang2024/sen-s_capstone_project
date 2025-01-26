@@ -1,5 +1,7 @@
 import pandas as pd
 import os
+
+#colour maping dict created to be used in app.py script
 VEG_COLOUR = {
     "blackberries":"purple",
     "lettuce":"green",
@@ -12,7 +14,7 @@ def get_veg_data():
     root_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../../'))
     root_folder = os.path.join(root_folder,"etl/data")
     
-    file_names = [f for f in os.listdir(root_folder) if os.path.isfile(os.path.join(root_folder, f))]
+    file_names = [f for f in os.listdir(root_folder)]
     data_dict = {}
     for filename in file_names:
         datatype = filename.split(".")[0]

@@ -1,4 +1,4 @@
-﻿month,mintemp_c,maxtemp_c,precipitation,growth_phase
+﻿month,mintemp_c,maxtemp_c,precip_mm,growth_phase
 January,7,10,50,Dormancy
 February,7,10,45,Dormancy
 March,7,10,45,Early Growth

@@ -1,4 +1,4 @@
-﻿month,mintemp_c,maxtemp_c,precipitation,growth_phase
+﻿month,mintemp_c,maxtemp_c,precip_mm,growth_phase
 January,1,5,30,Dormancy
 February,1,6,30,Early Planting
 March,3,9,35,Planting
